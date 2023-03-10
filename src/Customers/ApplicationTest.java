@@ -1,6 +1,6 @@
 package Customers;
 
-public class CustomerTest {
+public class ApplicationTest {
     public static void main(String[] args) {
 
         Doctor doctor1 = new Doctor("Robin");

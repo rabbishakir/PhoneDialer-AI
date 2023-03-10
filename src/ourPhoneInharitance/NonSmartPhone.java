@@ -6,6 +6,8 @@ public class NonSmartPhone extends Phone {
         super(model);
     }
 
-
-
+    @Override
+    public void takePhoto() {
+        System.out.println("Camera: " + "Sorry I dont have a camera module");
+    }
 }

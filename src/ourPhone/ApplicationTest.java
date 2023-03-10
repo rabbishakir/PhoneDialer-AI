@@ -2,6 +2,7 @@ package ourPhone;
 
 public class ApplicationTest {
     public static void main(String[] args) {
+
         System.out.println("This is the class which is runnable and we will test our application from this class");
 
         // maing an object of the phone class because we want to make new phones

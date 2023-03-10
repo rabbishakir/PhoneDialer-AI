@@ -9,11 +9,13 @@ public class SmartPhone extends Phone {
         super(model);
         this.hasNfc = hasNfc;
         this.isPaymentEnable = isPaymentEnable;
+
     }
 
 
     @Override
     public void showSettings(){
+
         super.showSettings();
         System.out.println("Bluetooth");
         System.out.println("Internet");
@@ -26,7 +28,20 @@ public class SmartPhone extends Phone {
             System.out.println("Payment");
         }
 
+        System.out.println("______________");
+
     }
+
+
+    @Override
+    public void takePhoto() {
+        super.takePhoto();
+    }
+    public void takePhoto(String filter) {
+       // super.takePhoto();
+        System.out.println( super.getModel() + "Taking photo using " + filter + " Filter ");
+    }
+
 
 
 
